@@ -8,6 +8,7 @@ function Select() {
   const [showOptions2, setShowOptions2] = useState(false);
   const [selectedOption2, setSelectedOption2] = useState("");
 
+
   const options = ["리액트", "자바", "스프링", "리액트네이티브"];
 
   const toggleOptions1 = () => {
@@ -85,6 +86,7 @@ const SelectBox = styled.div`
 const LabelContainer = styled.div`
   display: flex;
   position: relative;
+  overflow: visible;
 `;
 
 const Label = styled.div`
@@ -131,6 +133,7 @@ const All = styled.div`
 
 const HiddenContainer = styled.div`
   position: relative;
+ 
 
 `;
 
